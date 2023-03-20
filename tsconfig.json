@@ -1,0 +1,26 @@
+{
+  "extends": "@21epub/configs/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "docs/": ["docs"],
+      "docs/*": ["docs/*"],
+      "src": ["src"],
+      "src/*": ["src/*"],
+      "@21epub/utils": ["src"],
+      "@21epub/utils/*": ["src/*"]
+    },
+    "types": ["jest", "react"]
+  },
+  "include": [
+    ".dumi/**/*",
+    ".dumirc.ts",
+    "src/**/*",
+    "docs/**/*",
+    ".eslintrc.js",
+    "jest.config.ts",
+    "babel.config.js"
+  ]
+}
