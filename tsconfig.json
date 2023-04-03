@@ -12,7 +12,7 @@
       "@21epub/utils": ["src"],
       "@21epub/utils/*": ["src/*"]
     },
-    "types": ["jest", "react"]
+    "types": ["jest"]
   },
   "include": [
     ".dumi/**/*",
