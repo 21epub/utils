@@ -1,6 +1,6 @@
 {
   "name": "@21epub/utils",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "工具库",
   "homepage": "https://21epub.github.io/utils",
   "repository": "https://github.com/21epub/utils",
@@ -37,9 +37,7 @@
     ]
   },
   "dependencies": {
-    "@babel/runtime": "^7.21.0",
-    "crypto-js": "^4.1.1",
-    "lodash": "^4.17.21"
+    "@babel/runtime": "^7.21.0"
   },
   "devDependencies": {
     "@21epub/configs": "^0.1.5",
@@ -78,6 +76,8 @@
     "webpack": "^5.77.0"
   },
   "peerDependencies": {
+    "crypto-js": ">=4.*",
+    "lodash": ">=4.*",
     "react": ">=16.9.0",
     "react-dom": ">=16.9.0"
   },

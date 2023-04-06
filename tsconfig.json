@@ -3,6 +3,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "dist",
+    "noEmit": false,
+    "declaration": true,
     "paths": {
       "@@/*": [".dumi/tmp/*"],
       "docs/": ["docs"],
