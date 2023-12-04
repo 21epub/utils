@@ -4,6 +4,10 @@ hero:
   title: utils
   description: 工具库
   actions:
-    - text: 文档
-      link: /document/utils-crypto
+    - text: 指南
+      link: /guide
+    - text: 工具函数
+      link: /utils_docs
+    - text: 官网
+      link: https://www.epub360.com/
 ---

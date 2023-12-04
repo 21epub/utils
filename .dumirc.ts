@@ -10,7 +10,7 @@ export default defineConfig({
     socialLinks: {
       github: `https://github.com/dxsixpc/${name}`,
     },
-    logo: 'https://avatars.githubusercontent.com/u/5965951?s=200&v=4',
+    logo: 'https://v2static.epub360.com/epub360.ico',
   },
   favicons: [`/${name}/epub360.ico`],
   base: `/${name}/`,
